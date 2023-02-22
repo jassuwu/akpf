@@ -1,14 +1,14 @@
 ---
+import '../styles/global.css';
 import logo from '../assets/ak-logo.png'
 import {Image} from '@astrojs/image/components'
 ---
-
-<nav class="flex justify-between p-5">
+<nav class="flex justify-around p-5 bg-transparent absolute min-w-full">
     <Image src={logo} alt="logo" width={85} height={85} />
-    <ul class="flex justify-end items-center gap-10 pr-20">
-        <li class="font-['Poppins'] uppercase"><a href="#">Home</a></li>
-        <li class="font-['Poppins'] uppercase"><a href="#">About</a></li>
-        <li class="font-['Poppins'] uppercase"><a href="#">My Works</a></li>
-        <li class="font-['Poppins'] uppercase"><a href="#">Contact Me</a></li>
+    <ul class="flex justify-end items-center gap-10 pr-5">
+        <li class="font-['Poppins'] text-lg font-medium uppercase hover:border-b-2 border-black"><a href="#">Home</a></li>
+        <li class="font-['Poppins'] text-lg font-medium uppercase hover:border-b-2 border-black"><a href="#">About</a></li>
+        <li class="font-['Poppins'] text-lg font-medium uppercase hover:border-b-2 border-black"><a href="#">My Works</a></li>
+        <li class="font-['Poppins'] text-lg font-medium uppercase hover:border-b-2 border-black"><a href="#">Contact Me</a></li>
     </ul>
 </nav>
