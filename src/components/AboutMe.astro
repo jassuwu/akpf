@@ -1,16 +1,15 @@
 ---
-
 ---
-<div id="aboutme" class="w-full h-full bg-[#171814] pt-[125px]">
-    <div id="content-header" class="h-fit w-[70%] mx-auto pb-20">\
-        <p id="section-header" class="font-['SugarMagic'] text-white text-8xl">About me</p>
+<div id="aboutme" class="w-full h-full bg-[#171814] py-[125px]">
+    <div id="content-header" class="h-fit w-[70%] mx-auto pb-20 relative overflow-hidden">
+        <div id="section-header" class="font-['SugarMagic'] text-white text-8xl after:content-[''] after:absolute after:h-2 after:w-full after:top-[30%] after:ml-10 after:bg-[#DBCDAA] ">About me</div>
     </div>
-    <div id="content" class="h-fit w-[70%] mx-auto flex flex-col items-center"> {/*change height later*/}
-        <div id="stats" class="flex justify-between w-full">
-            <div class="education">
-                <p id="education-header" class="text-start font-['SugarMagic'] text-white text-4xl">Education</p>
-                <ul id="list-of-schools flex justify-between">
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+    <div id="content" class="w-[70%] mx-auto flex flex-col items-center"> 
+        <div id="stats" class="flex justify-between w-full h-fit">
+            <div class="education basis-1/4">
+                <p id="education-header" class="text-start font-['SugarMagic'] text-white text-4xl pb-5">Education</p>
+                <ul id="list-of-schools" class="flex flex-col gap-6">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg ">
                         <p class="font-['Outfit'] text-justify">PSG COLLEGE OF TECHNOLOGY</p>
                         <div>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] pr-2">2020 - Present</p>
@@ -18,7 +17,7 @@
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-2">8.70 CGPA</p>
                         </div>
                     </li>
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg ">
                         <p class="font-['Outfit'] text-justify">SUGUNA PIP SCHOOL</p>
                         <div>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] pr-2">2018 - 2020</p>
@@ -26,8 +25,8 @@
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-2">91.40 %</p>
                         </div>
                     </li>
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
-                        <p class="font-['Outfit'] text-justify">PSG COLLEGE OF TECHNOLOGY</p>
+                    <li class=" font-['Outfit'] text-white font-bold text-lg ">
+                        <p class="font-['Outfit'] text-justify">DPS COIMBATORE</p>
                         <div>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] pr-2">2012 - 2018</p>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] inline pr-2">Grade 10</p>
@@ -36,57 +35,57 @@
                     </li>
                 </ul>
             </div>
-            <div class="skills">
-                <p id="skills-header" class="text-start font-['SugarMagic'] text-white text-4xl">Skills</p>
-                <ul id="list-of-schools flex justify-between">
-                    <li class="font-['Outfit'] text-white font-bold text-lg my-5">
-                        Figma
+            <div class="skills basis-1/4 overflow-hidden">
+                <p id="skills-header" class="text-start font-['SugarMagic'] text-white text-4xl pb-5">Skills</p>
+                <ul id="list-of-schools" class="flex flex-col gap-7">
+                    <li class="relative">
+                        <div class="font-['Outfit'] text-white font-bold text-lg after:content-[''] after:absolute after:h-1 after:w-full after:top-[50%] after:ml-5 after:bg-[#DBCDAA]">Figma</div>
                     </li>
-                        <li class="font-['Outfit'] text-white font-bold text-lg my-5">
-                        Adobe Photoshop
+                    <li class="relative">
+                        <div class="font-['Outfit'] text-white font-bold text-lg after:content-[''] after:absolute after:h-1 after:w-full after:top-[50%] after:ml-5 after:bg-[#DBCDAA]">Adobe Photoshop</div>
                     </li>
-                        <li class="font-['Outfit'] text-white font-bold text-lg my-5">
-                        Adobe Illustrator
+                    <li class="relative">
+                        <div class="font-['Outfit'] text-white font-bold text-lg after:content-[''] after:absolute after:h-1 after:w-full after:top-[50%] after:ml-5 after:bg-[#DBCDAA]">Adobe Illustrator</div>
                     </li>
-                        <li class="font-['Outfit'] text-white font-bold text-lg my-5">
-                        Affinity Designer
+                    <li class="relative">
+                        <div class="font-['Outfit'] text-white font-bold text-lg after:content-[''] after:absolute after:h-1 after:w-full after:top-[50%] after:ml-5 after:bg-[#DBCDAA]">Affinity Designer</div>
                     </li>
-                        <li class="font-['Outfit'] text-white font-bold text-lg my-5">
-                            Krita
-                        </li>
-                        <li class="font-['Outfit'] text-white font-bold text-lg my-5">
-                        HTML/CSS/JS
+                    <li class="relative">
+                        <div class="font-['Outfit'] text-white font-bold text-lg after:content-[''] after:absolute after:h-1 after:w-full after:top-[50%] after:ml-5 after:bg-[#DBCDAA]">Krita</div>
+                    </li>
+                    <li class="relative">
+                        <div class="font-['Outfit'] text-white font-bold text-lg after:content-[''] after:absolute after:h-1 after:w-full after:top-[50%] after:ml-5 after:bg-[#DBCDAA]">HTML/CSS/JS</div>
                     </li>
                 </ul>
             </div>
-            <div class="languages">
-                <p id="languages-header" class="text-start font-['SugarMagic'] text-white text-4xl">Languages</p>
-                <ul id="list-of-languages flex justify-between">
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+            <div class="languages basis-1/4">
+                <p id="languages-header" class="text-start font-['SugarMagic'] text-white text-4xl pb-5">Languages</p>
+                <ul id="list-of-languages" class="flex flex-col gap-10">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg">
                         <div>
                             <p class="text-white font-bold font-['Outfit'] inline pr-8">Malayalam</p>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-8">Mother-tongue</p>
                         </div>
                     </li>
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg">
                         <div>
                             <p class="text-white font-bold font-['Outfit'] inline pr-8">English</p>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-8">Fluent</p>
                         </div>
                     </li>
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg">
                         <div>
                             <p class="text-white font-bold font-['Outfit'] inline pr-8">Tamil</p>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-8">Fluent</p>
                         </div>
                     </li>
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg">
                         <div>
                             <p class="text-white font-bold font-['Outfit'] inline pr-8">Hindi</p>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-8">Fluent</p>
                         </div>
                     </li>
-                    <li class=" font-['Outfit'] text-white font-bold text-lg my-5">
+                    <li class=" font-['Outfit'] text-white font-bold text-lg">
                         <div>
                             <p class="text-white font-bold font-['Outfit'] inline pr-8">Turkish</p>
                             <p class="text-[#DBCDAA] font-bold font-['Outfit'] float-right pl-8">Beginner</p>
