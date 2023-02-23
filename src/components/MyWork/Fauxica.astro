@@ -1,4 +1,6 @@
 ---
+import Fauxica from '../../images/fauxica.png';
+import FauxicaGif from '../../images/fauxica.gif';
 ---
 <div id="Fauxica" class="w-full h-full bg-[#171814] pt-[75px]">
     <header class="flex justify-around bg-transparent min-w-full">
@@ -13,10 +15,10 @@
             </p>
         </div>
         <div id="content-image" class="h-[100%] w-[100%]">
-            <img src="/src/assets/fauxica.png" class="h-full w-full">
+            <img src={Fauxica.src} class="h-full w-full">
         </div>
     </div>
     <div id="fauxica-gif" class="">
-        <img src="/src/assets/fauxica.gif" alt="fauxica-gif-showcase">
+        <img src={FauxicaGif.src} alt="fauxica-gif-showcase">
     </div>
 </div>

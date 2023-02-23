@@ -1,6 +1,8 @@
 ---
+import landingGrid2 from '../images/landing-grid-2.png';
+import landingGrid3 from '../images/landing-grid-3.png';
 ---
-<main class="bg-[url('/src/assets/landing-bg.png')] bg-no-repeat bg-cover h-full">
+<main class="bg-[url('/src/images/landing-bg.png')] bg-no-repeat bg-cover h-full">
     <div class="flex flex-col items-center justify-center h-fit pb-10">
         <div class="grid grid-cols-3 grid-rows-2 mt-[125px] h-fit w-[70%] gap-24 px-10">
             <div class="col-span-2 relative my-12">
@@ -16,10 +18,10 @@
                 </div>
             </div>
             <div class="row-span-2">
-                <img src="/src/assets/landing-grid-2.png" alt="Landing Page" class="min-h-full"/>
+                <img src={landingGrid2.src} alt="Landing Page" class="min-h-full"/>
             </div>
             <div class="col-span-2 overflow-hidden">
-                <img src="/src/assets/landing-grid-3.png" alt="Landing Page" class="m-auto" />
+                <img src={landingGrid3.src} alt="Landing Page" class="m-auto" />
             </div>
         </div>
     </div>
