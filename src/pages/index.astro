@@ -14,27 +14,27 @@ import landingGrid2 from "../assets/landing-grid-2.png";
 	<body>
 		<Navbar /> 
 		<main class="bg-[url('/src/assets/landing-bg.png')] bg-no-repeat bg-cover h-full">
-			<div class="flex flex-col items-center justify-center h-screen">
+			<div class="flex flex-col items-center justify-center h-fit pb-10">
 				<!-- <h1 class="text-6xl font-bold text-black">AK</h1>
 				<h2 class="text-2xl font-bold text-black">Designer Portfolio</h2> -->
-				<div class="grid grid-cols-3 grid-rows-2 mt-[125px] h-screen w-[70%] gap-8 p-20">
-					<div class="col-span-2 relative m-10">
-						<div class="absolute h-full w-full z-10 hover:z-0 bg-[#DBCDAA] p-16">
-							<p class="text-7xl font-semibold font-['SugarMagic']">Akash A</p>
-							<div class="float-right">
-								<p class="text-3xl text-right font-bold">DESIGNER</p>
-								<p class="text-3xl text-right font-bold">PORTFOLIO</p>
+				<div class="grid grid-cols-3 grid-rows-2 mt-[125px] h-fit w-[70%] gap-24 px-10">
+					<div class="col-span-2 relative my-12">
+						<div class="absolute h-full w-full z-10 hover:z-0 bg-[#DBCDAA] p-24">
+							<p class="text-7xl font-['SugarMagic']">Akash A</p>
+							<div class="float-right h-full w-full">
+								<p class="text-4xl text-right font-bold mt-4">DESIGNER</p>
+								<p class="text-4xl text-right font-bold mt-2">PORTFOLIO</p>
 							</div>
 						</div>
 						<div class="absolute h-full w-full z-0 hover:z-10 translate-x-8 translate-y-8 bg-black">
-							<p class="text-white font-['SugarMagic'] font-semibold text-5xl p-24">Designing beyond the boundaries of reality</p>
+							<p class="text-white font-['SugarMagic'] text-5xl p-24">Designing beyond the boundaries of reality</p>
 						</div>
 					</div>
 					<div class="row-span-2">
-						<img src="/src/assets/landing-grid-2.png" alt="Landing Page" class="h-full"/>
+						<img src="/src/assets/landing-grid-2.png" alt="Landing Page" class="min-h-full"/>
 					</div>
-					<div class="col-span-2">
-						<img src="/src/assets/landing-grid-3.png" alt="Landing Page" class="p-10" />
+					<div class="col-span-2 overflow-hidden">
+						<img src="/src/assets/landing-grid-3.png" alt="Landing Page" class="m-auto" />
 					</div>
 				</div>
 			</div>
