@@ -1,11 +1,14 @@
 ---
+import { Image } from '@astrojs/image/components';
 import Volunteering from '../images/volunteering.png';
 import Interests from '../images/interests.png';
+
 ---
 <div id="volunteeringandinterests" class="p-16 w-[70%] mx-auto">
     <div id="volunteering" class="block">
         <div id="volun-image">
-            <img src={Volunteering.src} alt="volunteering" class="float-left" />
+            {/* @ts-ignore */}
+            <Image src={Volunteering} alt="volunteering" class="float-left" />
         </div>
         <div id="volun-content" class="text-start">
             <div class="text-5xl font-['NewGate'] font-bold text-center my-5">Volunteering</div>
@@ -19,7 +22,8 @@ import Interests from '../images/interests.png';
     </div>
     <div id="interests" class="block overflow-hidden">
         <div id="inter-image">
-            <img src={Interests.src} alt="interests" class="float-right h-[50%]" />
+            {/* @ts-ignore */}
+            <Image src={Interests} alt="interests" class="float-right h-[50%]" />
         </div>
         <div id="inter-content" class="text-start">
             <div class="text-5xl font-['NewGate'] font-bold my-5 text-center">Interests</div>

@@ -1,11 +1,13 @@
 ---
-import Jazzify from '../../images/jazzify.png'
+import { Image } from '@astrojs/image/components';
+import Jazzify from '../../images/jazzify.png';
 import JazzifyChat from '../../images/jazzify-chat.png'
 ---
 <div id="jazzify" class="w-full h-full bg-[#171814] pt-[75px]">
     <div id="content" class="w-[70%] mx-auto flex items-center gap-8 py-16"> 
         <div id="content-image" class="h-[100%] w-[100%]">
-            <img src={Jazzify.src} class="h-full w-full">
+            {/* @ts-ignore */}
+            <img src={Jazzify} alt="jazzify-home" class="h-full w-full">
         </div>
         <div id="content-text" class="text-white font-['Outfit'] text-start w-[40%]">
             <p class="text-3xl font-bold text-[#DBCDAA]">JAZZIFY</p>
@@ -15,9 +17,11 @@ import JazzifyChat from '../../images/jazzify-chat.png'
         </div>
     </div>
     <div id="jazzify-showcase" class="h-[35vw] w-full bg-white flex justify-center items-center p-36 mt-36">
-        <div class="absolute z-20 translate-x-[-300px] translate-y-[-100px]"><img src={Jazzify.src} class="h-[300px]"> <p class="font-['Outfit'] font-bold text-2xl text-end"> ← Landing page</p> </div>
+        {/* @ts-ignore */}
+        <div class="absolute z-20 translate-x-[-300px] translate-y-[-100px]"><Image src={Jazzify} alt="jazzify-home" class="h-[300px]" /> <p class="font-['Outfit'] font-bold text-2xl text-end"> ← Landing page</p> </div>
         <div class="absolute z-0"><div class="min-h-[300px] bg-[#DBCDAA] w-[500px] rounded-xl">    
         </div></div>
-        <div class="absolute z-10 translate-x-[300px] translate-y-[100px]"><p class="font-['Outfit'] font-bold text-2xl text-start"> Live chat →  </p> <img src={JazzifyChat.src} class="h-[300px]"></div>
+        {/* @ts-ignore */}
+        <div class="absolute z-10 translate-x-[300px] translate-y-[100px]"><p class="font-['Outfit'] font-bold text-2xl text-start"> Live chat →  </p> <Image src={JazzifyChat} alt="jazzify-live-chat" class="h-[300px]" /></div>
     </div>
 </div>

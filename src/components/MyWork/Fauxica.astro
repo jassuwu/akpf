@@ -1,4 +1,5 @@
 ---
+import { Image } from '@astrojs/image/components';
 import Fauxica from '../../images/fauxica.png';
 import FauxicaGif from '../../images/fauxica.gif';
 ---
@@ -15,10 +16,12 @@ import FauxicaGif from '../../images/fauxica.gif';
             </p>
         </div>
         <div id="content-image" class="h-[100%] w-[100%]">
-            <img src={Fauxica.src} class="h-full w-full">
+            {/* @ts-ignore */}
+            <Image src={Fauxica} alt="Fau" class="h-full w-full" />
         </div>
     </div>
     <div id="fauxica-gif" class="">
-        <img src={FauxicaGif.src} alt="fauxica-gif-showcase">
+        {/* @ts-ignore */}
+        <img src={FauxicaGif.src} alt="fauxica-gif-showcase" />
     </div>
 </div>

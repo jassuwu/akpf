@@ -1,4 +1,5 @@
 ---
+import { Image } from '@astrojs/image/components';
 import landingGrid2 from '../images/landing-grid-2.png';
 import landingGrid3 from '../images/landing-grid-3.png';
 ---
@@ -18,10 +19,12 @@ import landingGrid3 from '../images/landing-grid-3.png';
                 </div>
             </div>
             <div class="row-span-2">
-                <img src={landingGrid2.src} alt="Landing Page" class="min-h-full"/>
+                {/* @ts-ignore */}
+                <Image src={landingGrid2} alt="Landing Page" class="min-h-full"/>
             </div>
             <div class="col-span-2 overflow-hidden">
-                <img src={landingGrid3.src} alt="Landing Page" class="m-auto" />
+                {/* @ts-ignore */}
+                <Image src={landingGrid3} alt="Landing Page" class="m-auto" />
             </div>
         </div>
     </div>

@@ -1,4 +1,5 @@
 ---
+import { Image } from '@astrojs/image/components'
 import EdenGardens from '../images/eden-gardens-ak.png';
 ---
 <div id="contact" class="w-full h-full bg-[#171814] p-32">
@@ -6,7 +7,8 @@ import EdenGardens from '../images/eden-gardens-ak.png';
         <div id="section-header" class="font-['SugarMagic'] text-white text-8xl text-end before:content-[''] before:absolute before:h-2 before:w-full before:top-[30%] before:mr-10 before:bg-[#DBCDAA] before:right-[25%]">Contact</div>
     </div>
     <div id="image" class="ml-32 float-left">
-        <img src={EdenGardens.src} alt="image" />
+        {/* @ts-ignore */}
+        <Image src={EdenGardens} alt="image" />
     </div>
     <div class="w-full">
         <ul class="list-disc flex flex-col items- gap-5"> {/* List disc  */}
