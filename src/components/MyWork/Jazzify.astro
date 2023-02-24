@@ -3,7 +3,7 @@ import { Image } from '@astrojs/image/components';
 import Jazzify from '../../images/jazzify.png';
 import JazzifyChat from '../../images/jazzify-chat.png'
 ---
-<div id="jazzify" class="w-full h-full bg-[#171814] pt-[75px]">
+<div id="jazzify" class="w-full h-full bg-[#171814] my-[75px]">
     <div id="content" class="w-[70%] mx-auto flex items-center gap-8 py-16"> 
         <div id="content-image" class="h-[100%] w-[100%]">
             {/* @ts-ignore */}
@@ -16,12 +16,12 @@ import JazzifyChat from '../../images/jazzify-chat.png'
                 Welcome to our jazz radio website where we revive the amazing world of jazz! Immerse yourself in the energetic sounds of jazz, connect with fellow enthusiasts through our live chat option, and enjoy a vibrant website design that reflects the spirit of this legendary music genre. Join us for an unforgettable jazz experience!            </p>
         </div>
     </div>
-    <div id="jazzify-showcase" class="h-[35vw] w-full bg-white flex justify-center items-center p-36 mt-36">
+    <div id="jazzify-showcase" class="h-screen w-full bg-white flex justify-center items-center p-36 mt-36">
         {/* @ts-ignore */}
-        <div class="absolute z-20 translate-x-[-400px] translate-y-[-100px]"><Image src={Jazzify} alt="jazzify-home" class="h-[400px]" /> <p class="font-['Outfit'] font-bold text-2xl text-end"> ← Landing page</p> </div>
-        <div class="absolute z-0"><div class="min-h-[400px] bg-[#DBCDAA] w-[500px] rounded-xl">    
+        <div class="absolute z-20 translate-x-[-400px] translate-y-[-100px]"><Image src={Jazzify} alt="jazzify-home" class="h-[400px] aspect-video" /> <p class="font-['Outfit'] font-bold text-2xl text-end"> ← Landing page</p> </div>
+        <div class="absolute z-0"><div class="min-h-[400px] aspect-video bg-[#DBCDAA] w-[700px] rounded-xl">    
         </div></div>
         {/* @ts-ignore */}
-        <div class="absolute z-10 translate-x-[400px] translate-y-[100px]"><p class="font-['Outfit'] font-bold text-2xl text-start"> Live chat →  </p> <Image src={JazzifyChat} alt="jazzify-live-chat" class="h-[400px]" /></div>
+        <div class="absolute z-10 translate-x-[400px] translate-y-[100px]"><p class="font-['Outfit'] font-bold text-2xl text-start"> Live chat →  </p> <Image src={JazzifyChat} alt="jazzify-live-chat" class="h-[400px]  w-[700px] aspect-video" /></div>
     </div>
 </div>
