@@ -1,46 +1,32 @@
-# Astro Starter Kit: Minimal
+# akpf [AK - Designer Portfolio]
 
-```
-npm create astro@latest -- --template minimal
-```
+akpf [AK - Designer Portfolio] is a single page website built with Astro that showcases the design work of [Your Friend's Name]. The site includes examples of [Your Friend's Name]'s work in areas such as:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+- Web Design
+- Mobile App Design
+- Branding and Identity
+- User Experience Design
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Technologies Used
 
-## 🚀 Project Structure
+- Astro
+- HTML
+- CSS
+- JavaScript
+## Contributing
 
-Inside of your Astro project, you'll see the following folders and files:
+If you'd like to contribute to akpf [AK - Designer Portfolio], please follow these steps:
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/my-new-feature`)
+5. Create a new Pull Request
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## License
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+akpf [AK - Designer Portfolio] is licensed under the [MIT License](https://opensource.org/licenses/MIT). See `LICENSE` for more information.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Acknowledgements
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+akpf [AK - Designer Portfolio] was built for @AKtwo47, who provided the Figma prototype and design assets. [His LinkedIn](https://www.linkedin.com/in/akash-a-two47/). Special thanks to myself tho :p
